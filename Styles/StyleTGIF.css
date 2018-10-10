@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*---------TABLA-----------*/
+
+tr th {
+    text-align: center;
+}
+
+/*-----------LOGOS----------*/
+
+.lupa {
+    width: 70px;
+    height: 70px;
+}
+
+.barra {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    
+}
+
+/*---------HEADER FLEX BOX---------*/
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.email {
+    width: 10%;
+    align-self: flex-end;
+
+}
+
+.titleh1 {
+    width: 80%;
+}
+/*---------CONTENT FLEX BOX---------*/
+
+#content1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;  
+}
+
+section {
+    width: 80%;
+}
+
