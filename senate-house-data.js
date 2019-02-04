@@ -7,7 +7,7 @@ if (donde == "/senate-data.html"){
     donde = "house";
 }
 
-var url = "https://api.propublica.org/congress/v1/113/" + donde + "/members.json";
+var url = "https://api.propublica.org/congress/v1/113/tgif" + donde + "/members.json";
 var checkbox = document.getElementsByTagName("input");
 
 
