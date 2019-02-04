@@ -2,14 +2,14 @@
 var donde = window.location.pathname;
 console.log(donde);
 
-if (donde == "/senate-data-copia.html") {
+if (donde == "/TGIF/senate-data-copia.html") {
     donde = "senate";
 }
-if (donde == "/house-data-copia.html") {
+if (donde == "/TGIF/house-data-copia.html") {
     donde = "house";
 }
 
-var url = "https://api.propublica.org/congress/v1/113/" + donde + "/members.json";
+var url = "https://api.propublica.org/congress/v1/113/"+donde+"/members.json";
 
 var checkbox = document.getElementsByTagName("input");
 

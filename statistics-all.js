@@ -5,15 +5,15 @@
 
 var donde = window.location.pathname;
 
-if (donde == "/senate-party-loyalty.html" || donde == "/senate-attendance.html") {
+if (donde == "/TGIF/senate-party-loyalty.html" || donde == "/TGIF/senate-attendance.html") {
     donde = "senate";
 }
-if (donde == "/house-party-loyalty.html" || donde == "/house-attendance.html") {
+if (donde == "/TGIF/house-party-loyalty.html" || donde == "/TGIF/house-attendance.html") {
     donde = "house";
 }
 
 
-var url = "https://api.propublica.org/congress/v1/113/" + donde + "/members.json";
+var url = "https://api.propublica.org/congress/v1/113/"+donde+"/members.json";
 var arrayMember;
 var arrayMemberT = [];
 var arrayMemberB = [];

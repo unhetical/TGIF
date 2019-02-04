@@ -1,13 +1,13 @@
 //----GLOBAL VARIABLES----//
 var donde = window.location.pathname;
 
-if (donde == "tgif/senate-data.html"){
-    donde = "tgif/senate";
-} if(donde == "tgif/house-data.html"){
-    donde = "tgif/house";
+if (donde == "/TGIF/senate-data.html"){
+    donde = "senate";
+} if(donde == "/TGIF/house-data.html"){
+    donde = "house";
 }
 
-var url = "https://api.propublica.org/congress/v1/113/"+ donde +"/members.json";
+var url = "https://api.propublica.org/congress/v1/113/"+donde+"/members.json";
 var checkbox = document.getElementsByTagName("input");
 
 

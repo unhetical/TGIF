@@ -4,14 +4,14 @@
 
 var donde = window.location.pathname;
 
-if (donde == "/senate-party-loyalty.html") {
+if (donde == "/TGIF/senate-party-loyalty.html") {
     donde = "senate";
 }
-if (donde == "/house-party-loyalty.html") {
+if (donde == "/TGIF/house-party-loyalty.html") {
     donde = "house";
 }
 
-var url = "https://api.propublica.org/congress/v1/113/" + donde + "/members.json";
+var url = "https://api.propublica.org/congress/v1/113/"+donde+"/members.json";
 var arrayMember;
 var arrayMemberT = [];
 var arrayMemberB = [];
