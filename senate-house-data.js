@@ -2,12 +2,12 @@
 var donde = window.location.pathname;
 
 if (donde == "tgif/senate-data.html"){
-    donde = "senate";
+    donde = "tgif/senate";
 } if(donde == "tgif/house-data.html"){
-    donde = "house";
+    donde = "tgif/house";
 }
 
-var url = "https://api.propublica.org/congress/v1/113/"+ donde + "/members.json";
+var url = "https://api.propublica.org/congress/v1/113/"+ donde +"/members.json";
 var checkbox = document.getElementsByTagName("input");
 
 
