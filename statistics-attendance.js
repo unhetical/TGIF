@@ -6,7 +6,7 @@ var donde = window.location.pathname;
 if (donde == "/TGIF/senate-attendance.html") {
     donde = "senate";
 }
-if (donde == "/TGIF/senate-data.html") {
+if (donde == "/TGIF/house-attendance.html") {
     donde = "house";
 }
 
